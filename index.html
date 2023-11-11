@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pianotiles</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/heart.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/heart.png">
+</head>
+
+<body>
+
+    <main>
+
+        <section class="knopkolom">
+            <button id="q">Q</button>
+            <button id="w">W</button>
+            <button id="e">E</button>
+        </section>
+
+        <section class="blokken">
+            <article class="Qblokken">
+                <div class="blockq"></div>
+            </article>
+            <article class="Wblokken">
+                <div class="blockw"></div>
+            </article>
+            <article class="Eblokken">
+                <div class="blocke"></div>
+            </article>
+        </section>
+
+
+        <section class="balk">
+            <button id="spacebar">Spacebar</button>
+        </section>
+
+        <ul>
+            <li>
+                <h1 id="displayUserName">Name here</h1>
+            </li>
+            <li>
+                <img class="avatar" src="./img/questionmark.png" alt="Avatar player">
+            </li>
+        </ul>
+
+
+        <ul>
+            <li>
+                <img id="life0" class="life" src="./img/heart.png" alt="Levens">
+                <img id="life1" class="life" src="./img/heart.png" alt="Levens">
+                <img id="life2" class="life" src="./img/heart.png" alt="Levens">
+            </li>
+            <li>
+                <h2 id="score">0</h2>
+            </li>
+        </ul>
+
+
+        <section id="startgame">
+            <h4>Hello there</h4>
+            <p>General kanobe</p>
+            <label for="userName">Fill in your name (no spaces):</label>
+            <input type="text" placeholder="Name here please..." name="username" id="userName">
+            <img class="avatar_popup" src="./img/questionmark.png" alt="Avatar player">
+            <button id="randomButton">Randomize character</button>
+            <input type="submit" name="voer leeftijd in" value="Start the game" id="submitButton">
+        </section>
+
+
+        <section class="gameover">
+            <h5>Game over</h5>
+            <p>Points:</p>
+            <h6 id="finalscore">0</h6>
+            <button id="tryagain">Try again</button>
+            <button id="switchplayer">Switch player</button>
+            <p>Song credit: A Certain Romance by Arctic Monkeys</p>
+        </section>
+
+        <audio id="audiogame" src="sound/acertainromance.mp3"></audio>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+/* Alle selectors*/
+
+body {
+    background-color: #E7EDEF;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #3B3434;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #3B3434;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+ul:last-of-type {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3em;
+}
+
+
+ul:last-of-type h2 {
+    font-size: 3em
+}
+
+
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+
+/* Alle ID's*/
+
+
+#startgame {
+    background-color: #606CB1;
+    width: 95vw;
+    height: 95vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+    border-radius: 1em;
+}
+
+#startgame h4 {
+    margin: 0;
+    font-size: 3em;
+    color: #fff;
+}
+
+#startgame p {
+    color: #fff;
+    margin: 0 0 2em 0;
+}
+
+#startgame button {
+    margin: 2em 0 2em 0;
+    background-color: #3B3434;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+
+
+#userName {
+    background-color: #E7EDEF;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 2em 0;
+}
+
+
+#submitButton {
+    background-color: #F21469;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Alle classes*/
+.gameover {
+    background-color: #606CB1;
+    width: 95vw;
+    height: 95vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+    border-radius: 1em;
+    visibility: hidden;
+}
+
+.gameover h5 {
+    margin: 0;
+    font-size: 3em;
+    color: #fff;
+}
+
+.gameover h6 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+.gameover p {
+    color: #fff;
+    margin: 0 0 2em 0;
+}
+
+.gameover p:last-of-type {
+    font-size: 0.8em;
+}
+
+.gameover button:first-of-type {
+    margin: 2em 0 2em 0;
+    background-color: #F21469;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.gameover button:last-of-type {
+    margin: 0 0 2em 0;
+    background-color: #3B3434;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+
+.life {
+    width: 3em;
+}
+
+
+.knopkolom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.knopkolom button {
+    color: #fff;
+    background-color: #3B3434;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0 0.2em 0 0.2em;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border-style: none;
+    border-radius: 0 0 0.2em 0.2em;
+}
+
+
+.balk {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.balk button {
+    color: #fff;
+    background-color: #3B3434;
+    padding: 1.2em 9em 1.2em 9em;
+    font-size: 2.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border-style: none;
+    border-radius: 0.2em 0.2em 0 0;
+}
+
+
+
+.blokken {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.Qblokken,
+.Wblokken,
+.Eblokken {
+    margin: -10em 8.5em 0 1.2em;
+}
+
+
+.blockq,
+.blockw,
+.blocke {
+    width: 7.5em;
+    height: 7.5em;
+    background-color: #606CB1;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.drop {
+    animation-name: dropblock;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+
+
+.removediv {
+    visibility: hidden;
+}
+
+.adddiv {
+    visibility: visible;
+}
+
+
+.avatar {
+    width: 8em;
+}
+
+
+.opacitylow {
+    opacity: 0;
+}
+
+
+button.active {
+    background-color: #F21469;
+}
+
+
+/* Keyframes*/
+
+
+@keyframes dropblock {
+    from {
+        margin-top: 0;
+    }
+
+    to {
+        margin-top: 99vh;
+    }
+}
